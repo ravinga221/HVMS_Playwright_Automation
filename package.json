@@ -1,0 +1,22 @@
+{
+  "name": "hvms_playwright_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravinga221/HVMS_Playwright_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravinga221/HVMS_Playwright_Automation/issues"
+  },
+  "homepage": "https://github.com/ravinga221/HVMS_Playwright_Automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.4.0"
+  }
+}
