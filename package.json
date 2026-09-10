@@ -17,6 +17,7 @@
   "homepage": "https://github.com/ravinga221/HVMS_Playwright_Automation#readme",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.4.0"
+    "@types/node": "^26.4.0",
+    "dotenv": "^17.4.2"
   }
 }
