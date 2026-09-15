@@ -9,7 +9,7 @@ test.describe('Settings - Master Cost Centers - Add', () => {
 
   test('අලුත් Cost Center එකක් Add කිරීම', async ({ page }) => {
     // Unique ID එකක් generate කරනවා - duplicate run වලදී conflict වෙන්නෙ නැති වෙන්න
-    const costCenterId = '3612'; 
+    const costCenterId = '3613'; 
     const costCenterName = 'RD_Nittabuwa';
     const region = 'Gampaha';
     const refNo = 'RD/01';
