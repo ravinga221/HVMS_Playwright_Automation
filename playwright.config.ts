@@ -10,8 +10,10 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: 'html',
-
+  reporter: [
+  ['html'],
+  ['json', { outputFile: 'test-results/results.json' }],
+],
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
     baseURL: 'https://dpdlab1.slt.lk:8400',
