@@ -8,7 +8,7 @@ test.describe('Settings - Master Cost Centers - Delete', () => {
   });
 
   test('Test Cost Center (3612) එක Search කරලා Delete කිරීම', async ({ page }) => {
-    const testCostCenterId = '3612';
+    const testCostCenterId = '3613';
 
     // Search කරනවා
     await page.getByRole('textbox', { name: 'Search cost centers...' }).fill(testCostCenterId);
